@@ -28,7 +28,7 @@ const draw = () => {
 	context.fillStyle = 'rgba(0, 0, 0, 0.05)';
 	context.fillRect(0, 0, canvas.width, canvas.height);
 	
-	context.fillStyle = '#808080';
+	context.fillStyle = '#999999';
 	context.font = fontSize + 'px monospace';
 
 	for(let i = 0; i < rainDrops.length; i++)
@@ -43,4 +43,4 @@ const draw = () => {
 	}
 };
 
-setInterval(draw, 30);
+setInterval(draw, 40);
